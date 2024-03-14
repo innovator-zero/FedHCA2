@@ -4,7 +4,7 @@
   <p align="center">
     <a href="https://innovator-zero.github.io/"><strong>Yuxiang Lu<sup>*</sup></strong></a>
     &nbsp;&nbsp;
-    <a href="https://jeandiable.github.io/"></a><strong>Suizhi Huang<sup>*</sup></strong></a>
+    <a href="https://jeandiable.github.io/"><strong>Suizhi Huang<sup>*</sup></strong></a>
     &nbsp;&nbsp;
     <strong>Yuwen Yang</strong>
     &nbsp;&nbsp;
