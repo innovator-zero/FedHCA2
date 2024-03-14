@@ -1,4 +1,3 @@
-# FedHCA2
 <p align="center">
   <h1 align="center">FedHCA<sup>2</sup>: Towards Hetero-Client Federated Multi-Task Learning</h1>
   <p align="center">
