@@ -1,0 +1,42 @@
+ST_Datasets:
+  - dataname: pascalcontext
+    local_epochs: 1
+    tr_batch: 4
+    val_batch: 4
+    nworkers: 4
+    optimizer: adamw
+    lr: 0.0001
+    weight_decay: 0.0001
+    warmup_epochs: 5
+    task_dict:
+      semseg: 1
+      human_parts: 1
+      normals: 1
+      edge: 1
+      sal: 1
+
+MT_Datasets:
+  - dataname: nyud
+    client_num: 1
+    local_epochs: 4
+    tr_batch: 4
+    val_batch: 4
+    nworkers: 4
+    optimizer: adamw
+    lr: 0.0001
+    weight_decay: 0.0001
+    warmup_epochs: 5
+    task_dict:
+      semseg: 1
+      normals: 1
+      edge: 1
+      depth: 1
+    
+Model:
+  backbone_type: swin-t
+  backbone_pretrained: True
+
+Hyperweight:
+  lr: 0.01
+  weight_decay: 0.0001
+  momentum: 0.9
